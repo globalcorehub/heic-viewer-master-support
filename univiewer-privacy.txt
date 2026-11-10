@@ -1,0 +1,82 @@
+UniViewer Pro Privacy Policy
+
+Effective date: 2026-11-10
+Privacy policy URL: https://globalcorehub.github.io/heic-viewer-master-support/univiewer-privacy.txt
+
+中文
+
+UniViewer Pro 是一款 Windows 桌面文件查看与转换工具，用于在用户设备上打开 .msg、.eml、.vcf、.ics 文件。
+
+本地处理的数据
+
+用户通过文件选择器、拖放、命令行或 Windows 文件关联显式选择的文件；
+从这些文件中解析出的邮件头、邮件正文、联系人、日历事件和附件；
+用户为导出 CSV、PDF 或批量附件提取显式选择的本地保存位置；
+应用设置，例如界面语言、主题和本地 Pro 授权状态。
+
+上述内容在本机处理，用于显示、搜索、导出和附件提取。当前代码路径未发现遥测上传、用户账号系统、广告 SDK、用户文件内容上传服务器或第三方分析服务。
+
+本地日志
+
+应用可在自身运行目录写入 trace.log 和 crash.log，用于本地诊断启动、解析异常与测试。日志仅保存在用户设备上，不会由应用主动上传。用户可删除这些文件。
+
+Microsoft Store 与购买
+
+Pro 授权通过 Windows.Services.Store.StoreContext 查询和购买。购买、付款、许可证验证、退款与相关账户数据由 Microsoft 按其服务条款和隐私政策处理。应用不收集银行卡信息、Microsoft 账户密码或账单地址。
+
+批量导出、超过 2 个文件的批量导入和一键批量附件提取是 Pro 功能；免费版仍可查看单个文件。应用不会通过上传用户文件来判断是否允许使用功能。
+
+文件与权限
+
+应用使用桌面文件访问能力打开用户选择的文件，并使用文件/文件夹选择器保存导出结果。它不申请位置、相机、麦克风、通讯录同步或后台持续采集。runFullTrust 用于 Windows 桌面文件解析和导出体验。
+
+第三方内容
+
+应用可显示邮件正文中的 HTML、链接和附件名称。除非用户主动点击链接或保存/打开附件，应用不会把邮件内容发送给外部服务。WebView2 呈现的本地邮件正文可能包含原邮件自带的远程图片或链接；这类请求由 Windows/WebView2 与邮件内容本身决定，用户应避免打开不受信任邮件中的外部内容。
+
+儿童
+
+应用面向一般办公用户，不包含用户生成内容、社交功能、广告或面向儿童的定向内容。建议年龄分级为 3+ / 所有人，但最终分级以 Partner Center 问卷为准。
+
+联系我们
+
+本产品不强制提供支持邮箱或 Support URL。如政策变更，我们会更新本页面并修改生效日期。
+
+English
+
+UniViewer Pro is a Windows desktop viewer and converter for .msg, .eml, .vcf, and .ics files.
+
+Data processed locally
+
+Files explicitly selected by the user through a file picker, drag-and-drop, command line, or Windows file association;
+Email headers, email bodies, contacts, calendar events, and attachments parsed from those files;
+Local destination folders explicitly chosen for CSV export, PDF export, or batch attachment extraction;
+App settings such as display language, theme, and local Pro license state.
+
+This data is processed on the device to display, search, export, and extract attachments. The current code path contains no telemetry upload, user account system, advertising SDK, user-content upload server, or third-party analytics service.
+
+Local logs
+
+The app may write trace.log and crash.log in its own runtime directory for local diagnostics of startup, parsing errors, and self-tests. These logs remain on the device and are not actively uploaded by the app. Users may delete them.
+
+Microsoft Store and purchases
+
+Pro licensing uses Windows.Services.Store.StoreContext. Purchases, payments, license checks, refunds, and related account data are handled by Microsoft under its terms and privacy policy. The app does not collect payment-card details, Microsoft account passwords, or billing addresses.
+
+Batch export, importing more than two files at once, and one-click batch attachment extraction are Pro features. Single-file viewing remains free. The app never uploads user files to decide feature availability.
+
+Files and capabilities
+
+The app uses desktop file access for user-selected files and file/folder pickers for export destinations. It does not request location, camera, microphone, contact synchronization, or continuous background collection. runFullTrust supports the Windows desktop parsing and export experience.
+
+Third-party content
+
+The app can display HTML bodies, links, and attachment names contained in email files. It does not send email content to external services unless the user opens a link, saves/opens an attachment, or otherwise initiates that action. WebView2 rendering of a local email body may encounter remote images or links already present in the original message; such requests are governed by Windows/WebView2 and the email content itself. Avoid opening external content in untrusted messages.
+
+Children
+
+The app targets general office users and contains no user-generated content, social features, ads, or child-directed content. A 3+ / Everyone rating is recommended, but the final rating depends on the Partner Center questionnaire.
+
+Contact
+
+A Support URL and support email are optional for this product. Policy updates will revise this page and its effective date.
